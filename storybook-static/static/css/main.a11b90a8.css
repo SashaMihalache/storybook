@@ -14,7 +14,7 @@ body {
   font-style: 400;
   color: #333;
   font-size: 16px;
-  background-color: #26c6da;
+  background-color: #26c6df;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -338,7 +338,7 @@ textarea {
   text-align: center;
   transition: all 200ms ease-in;
   color: #eee;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 3rem;
   outline: none;
 }
@@ -494,4 +494,4 @@ textarea {
 }
 
 
-/*# sourceMappingURL=main.eed9b159.css.map*/
+/*# sourceMappingURL=main.a11b90a8.css.map*/
