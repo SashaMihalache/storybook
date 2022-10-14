@@ -17,17 +17,18 @@ export default function Task({
           type="checkbox"
           disabled={true}
           name="checked"
-          checked={state === "TASK_ARCHIVED"}
           id={`archiveTask-${id}`}
+          checked={state === "TASK_ARCHIVED"}
         />
         <span className="checkbox-custom" onClick={() => onArchiveTask(id)} />
       </label>
 
-      <label htmlFor="title" aria-label={`pinTask-${id}`} className="checkbox">
+      <label htmlFor="title" aria-label={title} className="title">
         <input
           type="text"
           value={title}
           readOnly={true}
+          name="title"
           placeholder="Input title"
         />
       </label>
